@@ -1,0 +1,37 @@
+:root.theme-light {
+  --theme-bg: #fff;
+  --theme-accent-color: #000;
+  --gradient-theme:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --contour-heart: #000;
+}
+
+.theme-light .contour {
+  fill: var(--contour-heart);
+}
+
+.theme-light .button__text,
+.theme-light .floppy {
+  color: var(--theme-bg);
+}
+
+:root.theme-dark {
+  --theme-bg: #fff;
+  --theme-accent-color: #000;
+  --gradient-theme:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --contour-heart: #000;
+}
+
+.theme-dark .button__text,
+.theme-dark .floppy {
+  fill: var(--contour-heart);
+}
+
+.theme-dark .contour {
+  color: var(--theme-bg);
+}
