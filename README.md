@@ -1,1 +1,1 @@
-https://github.com/DenisGraffDenCorp/zakrivayuschiy-teg-final
+https://github.com/DenisGraffDenCorp/zakrivayuschiy-teg-ad
